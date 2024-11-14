@@ -1,7 +1,10 @@
 <template>
   <nav class="bg-gray-800 text-white p-4">
     <div class="container mx-auto flex justify-between items-center">
-      <NuxtLink to="/" class="text-xl font-bold">Scandit Desks</NuxtLink>
+      <NuxtLink to="/" class="text-xl font-bold flex items-center gap-2">
+        <img src="/icon.svg" class="h-6 w-6 invert" alt="Desk icon" />
+        Desksy
+      </NuxtLink>
       <div class="flex items-center gap-4">
         <NuxtLink to="/map" class="hover:text-gray-300">Office Map</NuxtLink>
         <NuxtLink to="/admin" class="hover:text-gray-300">Admin</NuxtLink>
